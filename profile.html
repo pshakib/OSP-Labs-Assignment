@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page</title>
+
+    <link rel="stylesheet" href="profilestyle.css">
+
+</head>
+<body>
+    <header>
+        <section id="hdleft">
+            <div>Patient System</div>
+            <img src="menu.png" alt="">
+        </section>
+        <section id="hdrt">
+            <img src="email.png" alt="">
+            <img src="bell.png" alt="">
+            <img src="user1.png" alt="">
+        </section>
+    </header>
+
+    <div id="profilepg">
+        <section id="sidebar">
+            <div id="sidebarup">
+                <img src="profpic.jpg" id="propic" alt="">
+                <b>Lorem Ipsum</b>
+                <p>Admin</p>
+            </div>
+            <div class="pl" id="sbpatient">
+                <img src="checked.png" alt=""> <span>Patient</span>
+            </div>
+            <div class="pl">
+                <img src="user2.png" alt=""> <span>Logout</span>
+            </div>
+        </section>
+    
+        <section id="mainpage">
+            <div id="dashboard"><p>Patient Dashboard</p></div>
+            
+            <div id="card">
+                <div id="pdetail">
+                    <h3>Patient Detail</h3>
+                    <div id="organise">
+                        <div class="colmn">
+                            First Name: <input type="text">
+                            Last Name: <input type="text">
+                            Phone: <input type="text">
+                        </div>
+                        <div class="colmn">
+                            Email: <input type="text">
+                            Address 1: <input type="text">
+                            Address 2: <input type="text">
+                        </div>
+                        <div class="colmn">
+                            City: <input type="text">
+                            State: <input type="text">
+                            Pincode: <input type="text">
+                        </div>
+                    </div>
+                    <button>ADD</button>
+                </div>
+
+                <div id="plist">
+                    <div id="search">
+                        <h3>Patient List</h3>
+                        <input type="text" placeholder="Search by First Name">
+                    </div>
+
+                    <table>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Address</th>
+                            <th>Action</th>
+                        </tr>
+                        <tr>
+                            <td>Bill</td>
+                            <td>Gates</td>
+                            <td>Lorem ipsum dolor sit.</td>
+                            <td>
+                                <img src="view.png" alt="">
+                                <img src="pencil.png" alt="">
+                                <img src="cancel.png" alt="">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+    
+</body>
+</html>
